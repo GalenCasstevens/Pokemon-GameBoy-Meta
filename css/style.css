@@ -99,6 +99,9 @@ table.oupokemon td.type {
   padding-left: 100px;
   text-align: center;
 }
+table.oupokemon td.tier {
+  padding-left: 150px;
+}
 table.oupokemon td.type .grassType1 {
   background-color: #7AC74C;
   border-bottom-left-radius: 25px;
@@ -176,6 +179,14 @@ table.oupokemon td.type .waterType2 {
   color: #FFF;
   display: table-cell;
 }
+table.oupokemon td.type .iceType1 {
+  background-color: #96D9D6;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
 table.oupokemon td.type .iceType2 {
   background-color: #96D9D6;
   border-bottom-right-radius: 25px;
@@ -230,8 +241,40 @@ table.oupokemon .flyingType2 {
   color: #FFF;
   display: table-cell;
 }
+table.oupokemon .dragonType {
+  background-color: #6F35FC;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
 table.oupokemon .fireType {
   background-color: #EE8130;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon td.type .fireType1 {
+  background-color: #EE8130;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .dragonType1 {
+  background-color: #6F35FC;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon .grassType {
+  background-color: #7AC74C;
   border-radius: 25px;
   padding: 5px;
   padding-top: 5px;
