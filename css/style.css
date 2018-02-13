@@ -89,30 +89,226 @@ table.oupokemon {
   border-spacing: 0;
   margin: 10px;
 }
+table.oupokemon td {
+  padding: 3px 0;
+}
+table.oupokemon td.pkmnImage {
+  padding-left: 100px;
+}
 table.oupokemon td.type {
+  padding-left: 100px;
+  text-align: center;
+}
+table.oupokemon td.type .grassType1 {
+  background-color: #7AC74C;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .fightingType1 {
+  background-color: #C22E28;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .electricType1 {
+  background-color: #F7D02C;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .normalType1 {
+  background-color: #A8A77A;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .poisonType1 {
+  background-color: #A33EA1;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .poisonType2 {
+  background-color: #A33EA1;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .grassType2 {
+  background-color: #7AC74C;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .groundType2 {
+  background-color: #E2BF65;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .waterType2 {
+  background-color: #6390F0;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .iceType2 {
+  background-color: #96D9D6;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .waterType1 {
+  background-color: #6390F0;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .ghostType1 {
+  background-color: #735797;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon td.type .rockType1 {
+  background-color: #B6A136;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
 }
 table.oupokemon img {
   height: 70px;
   width: 70px;
 }
-table.oupokemon p {
-  float: right;
-  padding-top: 10px;
-}
-table.oupokemon p.grasstype {
-  background-color: #00ff00;
-  border-bottom-right-radius: 25px;
-  border-top-right-radius: 25px;
-  padding: 5px;
-  padding-top: 5px;
-  color: #FFF;
-}
-table.oupokemon p.poisontype {
-  background-color: #cc3399;
+table.oupokemon .bugType1 {
+  background-color: #A6B91A;
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
   padding: 5px;
+  padding-top: 5px;
   color: #FFF;
+  display: table-cell;
+  padding-left: 30px;
+}
+table.oupokemon .flyingType2 {
+  background-color: #A98FF3;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
+}
+table.oupokemon .fireType {
+  background-color: #EE8130;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon p.waterType {
+  background-color: #6390F0;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon p.normalType {
+  background-color: #A8A77A;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon p.poisonType {
+  background-color: #A33EA1;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon p.electricType {
+  background-color: #F7D02C;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon p.groundType {
+  background-color: #E2BF65;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon p.bugType {
+  background-color: #A6B91A;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon p.fightingType {
+  background-color: #C22E28;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon p.psychicType {
+  background-color: #F95587;
+  border-radius: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  color: #FFF;
+  text-align: center;
+}
+table.oupokemon .psychicType2 {
+  background-color: #F95587;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+  color: #FFF;
+  display: table-cell;
 }
 footer {
   text-align: center;
