@@ -100,7 +100,37 @@ table.oupokemon td.type {
   text-align: center;
 }
 table.oupokemon td.tier {
-  padding-left: 150px;
+  padding-left: 285px;
+}
+table.oupokemon .hp {
+  text-align: center;
+  font-size: 12px;
+  padding-left: 50px;
+}
+table.oupokemon .atk {
+  text-align: center;
+  font-size: 12px;
+  padding-left: 12px;
+}
+table.oupokemon .def {
+  text-align: center;
+  font-size: 12px;
+  padding-left: 12px;
+}
+table.oupokemon .spA {
+  text-align: center;
+  font-size: 12px;
+  padding-left: 12px;
+}
+table.oupokemon .spD {
+  text-align: center;
+  font-size: 12px;
+  padding-left: 12px;
+}
+table.oupokemon .spe {
+  text-align: center;
+  font-size: 12px;
+  padding-left: 12px;
 }
 table.oupokemon td.type .grassType1 {
   background-color: #7AC74C;
