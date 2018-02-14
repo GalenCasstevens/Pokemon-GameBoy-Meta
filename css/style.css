@@ -41,7 +41,7 @@ header nav {
   padding-right: 30px;
 }
 .container{
-  width: 100%;
+  max-width: 100%;
   margin: auto;
   overflow: hidden;
 }
@@ -83,6 +83,30 @@ section.pokemonlist {
   padding-top: 150px;
   font-size: 18px;
   font-weight: bold;
+}
+.red, .blue, .yellow {
+  display: inline-block;
+}
+.red {
+  color: #ff1111;
+}
+.blue {
+  color: #1111ff;
+}
+.yellow {
+  color: #ffd733;
+}
+.gold, .silver, .crystal {
+  display: inline-block;
+}
+.gold {
+  color: #daa520;
+}
+.silver {
+  color: #c0c0c0;
+}
+.crystal {
+  color: #4fd9ff;
 }
 table.oupokemon {
   border-collapse: collapse;
